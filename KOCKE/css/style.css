@@ -1,0 +1,219 @@
+body{
+	background-image: url("../images/bg.jpg");
+	 background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#naslovPrvaStran{
+	margin-top: 0%;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+}
+
+#meni{
+	height: 550px;
+	width: 1000px;
+	background: #F2CA49;
+	margin-left: auto; /* pozicija v sredini */
+	margin-right: auto;
+	border: 5px solid white;
+	border-radius: 10px;
+	position: relative;
+}
+
+#glava{
+	height: 600px;
+	width:1000px;
+	background: red;
+	border: 2px solid black;
+}
+
+#prviIgralec{
+	margin: 10px;
+	height: 180px;
+	width: 30%;
+	background: blue;
+	float: left;
+	margin-left: 30px;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-align:center    /* pozicionira tudi input v sredino */
+}
+
+
+
+#drugiIgralec{
+	margin: 10px;
+	height: 180px;
+	width: 30%;
+	background: green;
+	float: left;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-align:center 
+}
+
+#tretjiIgralec{
+	margin: 10px;
+	height: 180px;
+	width: 30%;
+	background: yellow;
+	float: left;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-align:center 
+}
+
+.naslovIgralci{
+	position: relative;
+	top: 5px;
+	font-size: 40px;
+}
+
+input{
+	position: relative;
+	top: 50px;
+}
+
+#izbiraIgre{
+	position: absolute;
+	height: 200px;
+	width:200px;
+	background: #F2CA49;
+	top: 40%;
+	width: 1000px;
+}
+
+#steviloKock{
+	height: 90%;
+	width: 40%;
+	position: relative;
+	top: 0%;
+	float: left;
+	background: #123456;
+	border: 5px solid white;
+	left: 1%;
+	border-radius: 20px;
+}
+
+#steviloIger{
+	height: 90%;
+	width: 40%;
+	position: relative;
+	top: 0%;
+	float: left;
+	background: #009912;
+	right: -17%;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#igrajGumb{
+	position: absolute;
+	height: 75px;
+	width: 225px;
+	background: yellow;
+	top: 81%;
+	left: 38.5%;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#select1{
+	top: 0%;
+	position: relative;
+	left: 48%;
+}
+
+#select2{
+	top: 0%;
+	position: relative;
+	left: 48%;
+}
+
+#steviloIger p{
+	text-align: center;
+	font-size: 20px;
+}
+
+#steviloKock p{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+#tester{
+	margin-top:1%;
+	margin-left: 10.5%;
+	background: #C0C0C0;
+	height: 400px;
+	width: 300px;
+	border: 1px solid black;
+	float: left;
+	border-radius: 20px;
+	position: relative;
+}
+
+#tester img {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+
+.buttona{
+	position: absolute;
+	background-color: #4CAF50;
+	top: 500px;
+	right: 600px;
+	height: 100px;
+	width: 300px;
+	border-radius: 10px;
+	left: 40.5%;
+}
+
+.buttonb{
+	position: absolute;
+	background-color: blue;
+	top: 650px;
+	right: 1000px;
+	height: 75px;
+	width: 250px;
+	border-radius: 10px;
+	left: 10%;
+}
+
+.buttonc{
+	position: absolute;
+	background-color: red;
+	top: 650px;
+	right: 1000px;
+	height: 75px;
+	width: 250px;
+	border-radius: 10px;
+	right: 10%;
+}
+
+input { 
+    text-align: center; 
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}
+
+select{
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+}
+
+#slikastopnick{
+	height:750px;
+	width:1000px;
+	background-image: url("../images/stopnicke.jpg");
+	 background-size: cover;
+        background-repeat: no-repeat;
+		margin-left: 20%;
+}
